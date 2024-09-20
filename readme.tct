@@ -1,0 +1,15 @@
+Hey Nathan/Team, 
+
+The way I debugged the issues is fairly consistant, 
+
+for the button I first looked at the css to see if there was anything wrong, then forced the hover state on the button via dev tools, that showed
+the issue wasnt the css and from my experience i suspected it'd be a z-index issue, I found the culprit and then removed the :after pseudo-element as it
+wasn't doing anything useful
+
+Again for the border radius issue my first step was to check the css and upon finding it being fine and theoretically targeting the right element
+deduced the issue was that the class wasn't being added, so fixed the "clas" typo
+
+ I've been using .webp files for a while now so ran the .jpg through my convertion script, it's now half the size, I noticed some huge png's on the moneypenny homepage too I know
+ internet explorer doesnt support them and older apple products but I'd go webp with a fallback,
+ I took the liberty of whacking an alt attribute on it too, I've tried to turning getting a high score on the lighthouse report into a game and accessibility is a big point scorer
+ on that note I'd try and wrestle your design team into using text with a higher contrast #d2d2d2 on #ffffff and #ffffff on #9cebd5 is barely visible for me and I've got semi-decent vision
